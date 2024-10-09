@@ -1,0 +1,74 @@
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #63806f;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.navbutton {
+  border: 3px solid #63806f;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px 20px;
+  background-color: white;
+}
+
+.navbutton:hover {
+  background-color: rgb(232, 255, 127);
+  border: 3px solid #819b0d
+}
+
+.headphoto {
+  width: 100%;
+  height: auto;
+  }
+
+.headphoto-container img {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  padding: 5px 20px;
+  color: rgb(246, 251, 246);
+  text-shadow: rgba(0, 0, 0, 0.4);
+  background-color: rgba(6, 70, 5, 0.7);
+}
+
+.productphoto {
+  width: 300px;
+  border-radius: 3px;
+}
+
+.cartitemphoto {
+  width: 300px;
+  border-radius: 3px;
+}
+
