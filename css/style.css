@@ -239,7 +239,7 @@ footer {
     grid-template-columns: repeat(2, 1fr); /* 2columns */
 }
 
-  #shoppingCart {
+  #singleProductList{
       grid-template-columns: repeat(2, 1fr);
       
   }
@@ -258,7 +258,7 @@ footer {
   #productList {
     grid-template-columns: 1fr; /* 1column */
 }
-  #shoppingCart {
+  #singleProductList {
       grid-template-columns: 1fr;
   }
   
